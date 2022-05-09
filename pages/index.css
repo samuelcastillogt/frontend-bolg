@@ -1,0 +1,23 @@
+.banner{
+    background-image: url("../public/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title{
+    color: aliceblue;
+    font-size: 1.5em;
+    background-color: rgba(41, 60, 114, 0.411);
+}
+.btn{
+    border-radius: 6px;
+    box-shadow: 2px 2px 3px black;
+}
+.btn:hover{
+    cursor: pointer;
+}
