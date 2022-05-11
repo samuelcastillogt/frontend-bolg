@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import API from "../../services/API"
 import {AiFillPlayCircle , AiFillPauseCircle} from "react-icons/ai"
+import { Helmet } from "react-helmet"
 const api = new API
 export const getServerSideProps = async(context)=>{
     const id = context.query.id
