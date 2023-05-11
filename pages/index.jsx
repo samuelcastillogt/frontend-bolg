@@ -29,6 +29,8 @@ const index = ({state}) => {
                 }
             </PostsContiner>
             <h1>Hola</h1>
+            <button>click</button>
+            
         </React.Fragment>
     );
 };
