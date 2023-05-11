@@ -28,7 +28,9 @@ const index = ({state}) => {
                     state.map(item => <Post imgDesc={item.imgDes} title={item.titulo} link={item.entrada}/>)
                 }
             </PostsContiner>
+            <h1>Hola</h1>
             <button>click</button>
+            
         </React.Fragment>
     );
 };
